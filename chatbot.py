@@ -7,7 +7,7 @@ st.set_page_config(layout='wide', page_title='Chatbot', page_icon=':robot_face:'
 st.title('💬 Chatbot using Google Gemini Model')
 
 with st.sidebar:
-    # API key setup  # 'AIzaSyD1ZMVYWKMzqUIX33zG8EC3CjqZxdS2iiU'
+    # API key setup
     GOOGLE_API_KEY = st.text_input('Gemini API Key', type='password')
     st.markdown('''[Get an API key](https://aistudio.google.com/app/apikey)''')
         
